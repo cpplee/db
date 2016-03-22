@@ -365,4 +365,62 @@ float: left;
     position:absolute;
 }
 
+#hd-con .con-right .last-ad h2{
+    color:#000;
+    font-size:15px;
+    position:absolute;
+    left:19px;
+    top:15px;
+}
+#hd-con .con-right .last-ad a.last-ad-pic{
+    position:absolute;
+    left:19px;
+    top:44px;
+}
+
+#hd-con .con-right .last-ad a.last-ad-ghost{
+    width:68px;
+    height:28px;
+    overflow:hidden;
+    position:absolute;
+    left:87px;
+    top:11px;
+}
+
+#hd-con .con-right .last-ad a.last-ad-ghost:hover{
+
+    background:#fff;
+
+}
+
+#hd-con .con-right .last-ad a.last-ad-rainbow{
+    position:absolute;
+    top:0px;
+    right:0px;
+
+}
+#hd-con .con-right .last-ad a.last-ad-beghost{
+
+    position:absolute;
+    left:128px;
+    top:46px;
+
+}
+#hd-con .con-right .last-ad p{
+
+    color: #999999;
+    position:absolute;
+    left: 128px;
+    top: 66px;
+}
+
+#hd-con .con-right .last-ad span{
+    color: #999999;
+    position: absolute;
+    left:128px;
+    top:80px;
+
+}
+
+
 
