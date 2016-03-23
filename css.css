@@ -46,6 +46,21 @@ h2.title{
     border:1px solid #508AB6;
 }
 
+.hd-ad{
+    width:950px;
+    height:90px;
+    margin:0 auto;
+
+}
+.left{
+    width:121px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border:1px solid blue;
+}
+
+
 
 
 
@@ -423,4 +438,82 @@ float: left;
 }
 
 
+#hd-movie-background {
+    height: 631px;
+    background: #f7f7f7;
+    margin-top: 40px;
+    border: 1px solid #508AB6;
+    padding-bottom: 40px;
+    padding-top:40px;
+}
 
+#hd-movie-background #hd-movie{
+    width:950px;
+    height:631px;
+    border:1px solid #f00;
+    margin: 0px auto;
+    position:relative;
+}
+
+.left .left-title{
+    font-size:24px;
+
+}
+
+.left .left-up{
+    margin-top:5px;
+}
+
+.left .left-up li{
+    font-size:14px;
+    line-height:24px;
+}
+
+.left .left-down{
+    margin-top:28px;
+    border:1px solid yellow;
+
+}
+
+.left .left-down li{
+    width:55px;
+    height:93px;
+    border:1px solid red;
+}
+
+.left .left-down li a.left-down-pic{
+    background:url(./image/app_icons_50_6.jpg) -350px 0 no-repeat ;
+    width:50px;
+    height:50px;
+    display:block;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px #999;
+}
+/*注意这里是内联元素要加block要不然属性不起作用,要不然就用行高*/
+.left .left-down li a.left-down-des{
+    display:block;
+    margin-top: 5px;
+    text-align: center;
+    /*line-height: 25px;*/
+}
+
+
+.mid{
+    width:530px;
+    height:500px;
+    border:1px solid yellow;
+    position:absolute;
+    left:121px;
+    top: 0px;
+
+}
+.mid ul li{
+    width:127px;
+    border:1px solid blue;
+
+}
+
+#hd-movie-background #hd-movie .hd-movie-name{
+    display:block;
+    text-align: center;
+}
