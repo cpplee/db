@@ -34,12 +34,16 @@ a:hover{
 
 h2.title{
 
+    /*利用width降上面浮动的元素造成的混乱的li元素 挤下去！！！！！*/
+    width:230px;
     font:15px/150% Arial,Helvetica,sans-serif;
     color:#007722;
+    border:1px solid #f00;
 }
 
 .right{
     width:266px;
+    height:20px;
     position:absolute;
     right:0px;
     top:0px;
@@ -507,13 +511,88 @@ float: left;
     top: 0px;
 
 }
+
 .mid ul li{
+
     width:127px;
     border:1px solid blue;
+    text-align:center;
+    float: left;
+
+
+}
+#hd-movie-background #hd-movie ul.hd-movie-list{
+    margin-top: 16px;
+}
+#hd-movie-background #hd-movie ul.hd-movie-list li{
+    margin-bottom: 40px;
+
+}
+/*.mid ul li img{*/
+    /*padding-left:10px;*/
+    /*padding-top:10px;*/
+/*}*/
+
+#hd-movie-background #hd-movie .hd-movie-name{
+
+    /*display:block;*/
+    text-align: center;
+}
+
+#hd-movie-background #hd-movie span.hd-movie-point{
+    display:block;
+    width:82px;
+    height:11px;
+    text-align: center;
+    border:1px solid #f00;
+    background:url(./image/midstars.gif) 10px 0 no-repeat;
+    overflow:hidden;
+    padding-left: 45px;
+    line-height: 16px;
 
 }
 
-#hd-movie-background #hd-movie .hd-movie-name{
-    display:block;
+#hd-movie-background #hd-movie .hd-movie-choose{
+      display:block;
+      height:23px;
+      width:68px;
+      background:#1c8bd0;
+      color:#fff;
+      line-height: 23px;
+      border-radius:5px;
+      margin:3px auto;
     text-align: center;
+}
+
+#hd-movie-background #hd-movie .movie-right-ul{
+
+    margin-top:15px;
+    border:1px solid yellow;
+    float: left;
+}
+
+#hd-movie-background #hd-movie .movie-right-ul li{
+        width:45px;
+        float:left;
+    line-height:23px;
+    border:1px solid darkslategray;
+}
+
+#hd-movie-background #hd-movie .movie-title{
+     margin-top: 20px;
+     float:left;
+}
+#hd-movie-background #hd-movie ul.movie-right-down{
+    float:left;
+    border:1px solid #000000;
+}
+
+#hd-movie-background #hd-movie .movie-right-down li{
+    border-bottom:1px solid #eaeaea;
+    height:30px;
+    line-height:30px;
+    width:260px;
+}
+#hd-movie-background #hd-movie .movie-right-down li a{
+    margin-left:12px;
 }
