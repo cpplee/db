@@ -486,7 +486,7 @@ float: left;
 }
 
 .left .left-down li a.left-down-pic{
-    background:url(./image/app_icons_50_6.jpg) -350px 0 no-repeat ;
+    /*background:url(./image/app_icons_50_6.jpg) -350px 0 no-repeat ;*/
     width:50px;
     height:50px;
     display:block;
@@ -532,7 +532,10 @@ float: left;
     /*padding-left:10px;*/
     /*padding-top:10px;*/
 /*}*/
+#hd-movie-background #hd-movie .left-down-pic{
 
+    background:url(./image/app_icons_50_6.jpg) -350px 0 no-repeat ;
+}
 #hd-movie-background #hd-movie .hd-movie-name{
 
     /*display:block;*/
@@ -595,4 +598,114 @@ float: left;
 }
 #hd-movie-background #hd-movie .movie-right-down li a{
     margin-left:12px;
+}
+
+
+#hd-book{
+    width:950px;
+    height:623px;
+    border:1px solid #f00;
+    margin:38px auto;
+    position:relative;
+}
+
+#hd-book .book-new{
+
+    position:relative;
+    border:1px solid yellow;
+}
+
+#hd-book .book-new img{
+
+    position:absolute;
+    top:2px;
+}
+#hd-book .book-read{
+
+
+    background:url(./image/app_icons_50_6.jpg) 0px 0 no-repeat ;
+
+}
+#hd-book .book-write{
+
+
+    background:url(./image/app_icons_50_6.jpg) -399px 0 no-repeat ;
+
+}
+#hd-book .book-buy{
+
+
+    background:url(./image/app_icons_50_6.jpg) -200px 0 no-repeat ;
+
+}
+#hd-book ul{
+    margin-top:10px;
+}
+
+/*#hd-book .mid p{*/
+    /*margin-top:5px;*/
+/*}*/
+
+#hd-book .book-free-read{
+    display:block;
+    width:68px;
+    height:23px;
+    background: #999a95;
+    text-align: center;
+    line-height:23px;
+    color: #ffffff;
+    margin: 0 auto;
+
+}
+
+#hd-book ul .book-free-read:hover{
+    background:#878882;
+}
+
+#hd-book .book-num{
+
+
+    /*border:1px solid blue;*/
+    line-height:23px;
+    margin-top: 32px;
+    float:left;
+    width:400px;
+}
+#hd-book .book-num-ul{
+    clear:left;
+    float:left;
+
+}
+#hd-book .book-num-ul li a.book-num-pic{
+    display:block;
+    width:100px;
+    height:148px;
+    margin-left:10px;
+}
+#hd-book .book-num-ul a img{
+    width:100%;
+    height:100%;
+}
+#hd-book .book-num-ul b{
+    font-size:12px;
+    color:#666;
+    font-weight:400;
+}
+
+#hd-book h2.title{
+    width:246px;
+}
+#hd-book .right ul li{
+    height:60px;
+     padding-top:13px;
+    border-bottom:1px solid #878882;
+}
+#hd-book .right ul li span{
+    margin-right:11px;
+    float:left;
+}
+#hd-book .right ul li a{
+    float:left;
+    margin-right: 11px;
+    margin-bottom:5px;
 }
